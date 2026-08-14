@@ -5,29 +5,99 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Jasurbek Eshmominov — Python developer, automation and Telegram bots.">
 <title>Jasurbek Eshmominov — Python Developer</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header><nav class="nav">
+
+<header>
+<nav class="nav">
+
 <a class="logo" href="#home">JE<span>.</span></a>
+
 <button class="menu" aria-label="Menu">☰</button>
-<div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#services">Services</a><a class="cta" href="#contact">Let's talk</a></div>
-</nav></header>
+
+<div class="links">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#services">Services</a>
+<a class="cta" href="#contact">Let's talk</a>
+</div>
+
+</nav>
+</header>
+
 
 <main>
+
+<!-- HERO -->
 <section class="hero" id="home">
+
 <div>
-<p class="eyebrow">● PYTHON DEVELOPER · AUTOMATION</p>
-<h1>Jasurbek<br><em>Eshmominov.</em></h1>
-<p class="intro">I build practical software with Python — from Telegram bots and automation tools to backend systems and web applications.</p>
-<div class="actions"><a class="primary" href="#projects">View my work ↗</a><a class="secondary" href="#contact">Contact me</a></div>
-<p class="meta">Based in Uzbekistan · UTC+5</p>
+
+<p class="eyebrow">
+● PYTHON DEVELOPER · AUTOMATION
+</p>
+
+<h1>
+Jasurbek<br>
+<em>Eshmominov.</em>
+</h1>
+
+<p class="intro">
+I build practical software with Python — from Telegram bots and
+automation tools to backend systems and web applications.
+</p>
+
+<div class="actions">
+<a class="primary" href="#projects">
+View my work ↗
+</a>
+
+<a class="secondary" href="#contact">
+Contact me
+</a>
 </div>
+
+<p class="meta">
+Based in Uzbekistan · UTC+5
+</p>
+
+</div>
+
+
+<div class="hero-right">
+
+<!-- PROFILE PHOTO -->
+
+<div class="profile-photo">
+<img
+src="assets/profile.jpg"
+alt="Jasurbek Eshmominov"
+>
+</div>
+
+
+<!-- TERMINAL -->
+
 <div class="terminal">
-<div class="bar"><i></i><i></i><i></i><small>jasurbek.py</small></div>
+
+<div class="bar">
+
+<i></i>
+<i></i>
+<i></i>
+
+<small>jasurbek.py</small>
+
+</div>
+
 <pre><code><b>class</b> Developer:
     focus = [
         <mark>"Python"</mark>,
@@ -38,41 +108,330 @@
 
     <b>def</b> build(self, idea):
         <b>return</b> <mark>"something useful"</mark></code></pre>
+
 </div>
+
+</div>
+
 </section>
+
+
+<!-- ABOUT -->
 
 <section class="section" id="about">
-<div class="heading"><span>01</span><h2>About me</h2></div>
-<div class="about"><p>I'm a developer who enjoys turning ideas into working software. I learn by building real projects, experimenting with new technologies, and solving problems that actually have a purpose.</p><aside><small>CURRENTLY FOCUSED ON</small><strong>Python · APIs · Automation · Backend</strong></aside></div>
+
+<div class="heading">
+<span>01</span>
+<h2>About me</h2>
+</div>
+
+<div class="about">
+
+<p>
+I'm a developer who enjoys turning ideas into working software.
+I learn by building real projects, experimenting with new
+technologies, and solving problems that actually have a purpose.
+</p>
+
+<aside>
+
+<small>CURRENTLY FOCUSED ON</small>
+
+<strong>
+Python · APIs · Automation · Backend
+</strong>
+
+</aside>
+
+</div>
+
 </section>
+
+
+<!-- SKILLS -->
 
 <section class="section" id="skills">
-<div class="heading"><span>02</span><h2>Skills</h2></div>
-<div class="grid">
-<article><small>01</small><h3>Python</h3><p>Building scripts, automation tools, APIs and backend applications.</p></article>
-<article><small>02</small><h3>Telegram Bots</h3><p>Creating useful bots with APIs, databases and automated workflows.</p></article>
-<article><small>03</small><h3>Automation</h3><p>Turning repetitive manual processes into simple, reliable software.</p></article>
-<article><small>04</small><h3>Backend</h3><p>Working with APIs, databases, authentication and server-side logic.</p></article>
+
+<div class="heading">
+<span>02</span>
+<h2>Skills</h2>
 </div>
+
+<div class="grid">
+
+<article>
+
+<small>01</small>
+
+<h3>Python</h3>
+
+<p>
+Building scripts, automation tools, APIs and backend applications.
+</p>
+
+</article>
+
+
+<article>
+
+<small>02</small>
+
+<h3>Telegram Bots</h3>
+
+<p>
+Creating useful bots with APIs, databases and automated workflows.
+</p>
+
+</article>
+
+
+<article>
+
+<small>03</small>
+
+<h3>Automation</h3>
+
+<p>
+Turning repetitive manual processes into simple, reliable software.
+</p>
+
+</article>
+
+
+<article>
+
+<small>04</small>
+
+<h3>Backend</h3>
+
+<p>
+Working with APIs, databases, authentication and server-side logic.
+</p>
+
+</article>
+
+</div>
+
 </section>
+
+
+<!-- PROJECTS -->
 
 <section class="section" id="projects">
-<div class="heading"><span>03</span><h2>Selected projects</h2></div>
-<div class="projects">
-<article><small>01 · REAL PROJECT</small><h3>GetTOPIK</h3><p>A Telegram bot project built with Python to provide TOPIK-related functionality and automated user workflows.</p><div class="tags"><span>Python</span><span>Telegram API</span><span>SQLite</span></div><a class="project-link" href="https://github.com/mroverthinker7/tg_bot" target="_blank" rel="noreferrer">GitHub ↗</a></article>
-<article><small>02 · REAL PROJECT</small><h3>Smart Chess Board</h3><p>An experimental smart chessboard combining Raspberry Pi, ESP32, Hall sensors, addressable LEDs and Stockfish.</p><div class="tags"><span>ESP32</span><span>Raspberry Pi</span><span>Stockfish</span></div></article>
-<article><small>03 · CURRENT PROJECT</small><h3>Personal Portfolio</h3><p>This responsive developer portfolio, built from scratch and deployed with GitHub Pages.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/mroverthinker7/portfolio" target="_blank" rel="noreferrer">GitHub ↗</a></article>
+
+<div class="heading">
+<span>03</span>
+<h2>Selected projects</h2>
 </div>
+
+<div class="projects">
+
+
+<article>
+
+<small>01 · REAL PROJECT</small>
+
+<h3>GetTOPIK</h3>
+
+<p>
+A Telegram bot project built with Python to provide TOPIK-related
+functionality and automated user workflows.
+</p>
+
+<div class="tags">
+
+<span>Python</span>
+<span>Telegram API</span>
+<span>SQLite</span>
+
+</div>
+
+<a
+class="project-link"
+href="https://github.com/mroverthinker7/tg_bot"
+target="_blank"
+rel="noreferrer"
+>
+GitHub ↗
+</a>
+
+</article>
+
+
+<article>
+
+<small>02 · REAL PROJECT</small>
+
+<h3>Smart Chess Board</h3>
+
+<p>
+An experimental smart chessboard combining Raspberry Pi,
+ESP32, Hall sensors, addressable LEDs and Stockfish.
+</p>
+
+<div class="tags">
+
+<span>ESP32</span>
+<span>Raspberry Pi</span>
+<span>Stockfish</span>
+
+</div>
+
+</article>
+
+
+<article>
+
+<small>03 · CURRENT PROJECT</small>
+
+<h3>Personal Portfolio</h3>
+
+<p>
+This responsive developer portfolio, built from scratch
+and deployed with GitHub Pages.
+</p>
+
+<div class="tags">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+
+</div>
+
+<a
+class="project-link"
+href="https://github.com/mroverthinker7/portfolio"
+target="_blank"
+rel="noreferrer"
+>
+GitHub ↗
+</a>
+
+</article>
+
+</div>
+
 </section>
+
+
+<!-- SERVICES -->
 
 <section class="section" id="services">
-<div class="heading"><span>04</span><h2>What I can help with</h2></div>
-<div class="services"><div><b>01</b><h3>Python scripts</h3><p>Small tools and automation for repetitive tasks.</p></div><div><b>02</b><h3>Telegram bots</h3><p>Bots for notifications, orders, workflows and simple services.</p></div><div><b>03</b><h3>Websites</h3><p>Clean, responsive websites for individuals and small businesses.</p></div></div>
+
+<div class="heading">
+<span>04</span>
+<h2>What I can help with</h2>
+</div>
+
+<div class="services">
+
+<div>
+
+<b>01</b>
+
+<h3>Python scripts</h3>
+
+<p>
+Small tools and automation for repetitive tasks.
+</p>
+
+</div>
+
+
+<div>
+
+<b>02</b>
+
+<h3>Telegram bots</h3>
+
+<p>
+Bots for notifications, orders, workflows and simple services.
+</p>
+
+</div>
+
+
+<div>
+
+<b>03</b>
+
+<h3>Websites</h3>
+
+<p>
+Clean, responsive websites for individuals and small businesses.
+</p>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="contact" id="contact"><div><p class="eyebrow">05 · CONTACT</p><h2>Have an idea?<br><em>Let's build it.</em></h2></div><div class="contact-links"><a href="https://github.com/mroverthinker7" target="_blank">GitHub ↗</a><a href="https://t.me/MrOverthinker7" target="_blank">Telegram ↗</a><a href="mailto:YOUR_EMAIL@example.com">Email ↗</a></div></section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<div>
+
+<p class="eyebrow">
+05 · CONTACT
+</p>
+
+<h2>
+Have an idea?<br>
+<em>Let's build it.</em>
+</h2>
+
+</div>
+
+
+<div class="contact-links">
+
+<a
+href="https://github.com/mroverthinker7"
+target="_blank"
+rel="noreferrer"
+>
+GitHub ↗
+</a>
+
+
+<a
+href="https://t.me/MrOverthinker7"
+target="_blank"
+rel="noreferrer"
+>
+Telegram ↗
+</a>
+
+
+<a href="mailto:jasurbekeshmominov67@gmail.com">
+Email ↗
+</a>
+
+</div>
+
+</section>
+
 </main>
-<footer><span>© 2026 Jasurbek Eshmominov</span><span>Built from scratch.</span></footer>
+
+
+<footer>
+
+<span>
+© 2026 Jasurbek Eshmominov
+</span>
+
+<span>
+Built from scratch.
+</span>
+
+</footer>
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
